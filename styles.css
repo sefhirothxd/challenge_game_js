@@ -1,0 +1,99 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-points {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 50px;
+  background-image: url('./img/battleground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container-poke1 {
+  margin-top: -100px;
+}
+.container-poke2 {
+  position: relative;
+}
+.bar-2 {
+  width: 100px;
+  height: 10px;
+  margin-top: -20px;
+  position: absolute;
+  border: 1px solid black;
+  background: transparent;
+  top: -5px;
+}
+.bar-2-hp {
+  width: 100%;
+  height: 10px;
+  background-color: greenyellow;
+  position: absolute;
+}
+.container-poke1 {
+  position: relative;
+}
+.bar-1 {
+  width: 100px;
+  height: 10px;
+  background-color: transparent;
+  margin-top: -10px;
+  position: absolute;
+  border: 1px solid black;
+  top: -5px;
+}
+.bar-1-hp {
+  width: 100%;
+  height: 10px;
+  background-color: greenyellow;
+  position: absolute;
+}
+
+.menu-attack {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  height: 100px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.btn-attack {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+  padding: 10px;
+}
+.btn-attack:hover {
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
